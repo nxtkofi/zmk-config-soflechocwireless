@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/mouse.h>
+#include <behaviors/mouse_keys.dtsi>
 #include <behaviors/studio_unlock.dtsi>    
 
 
@@ -83,6 +85,7 @@
 &trans     &trans       &trans       &mmv MOVE_UP &trans       &trans                   &msc SCRL_UP          &trans           &mmv MOVE_UP   &trans          &trans          &trans
 &trans     &trans       &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans           &msc SCRL_DOWN        &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans          &trans
 &trans     &trans       &trans       &trans       &trans       &trans  &trans   &trans  &mkp LCLK             &mkp RCLK        &mkp MCLK      &trans          &trans          &trans
+                        &trans       &trans       &trans       &trans  &trans   &trans  &trans                &trans           &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
