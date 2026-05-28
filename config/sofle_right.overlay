@@ -1,0 +1,17 @@
+#include "sofle.dtsi"
+
+&pro_micro_i2c {
+    status = "okay";
+
+    glidepoint: glidepoint@2a {
+        compatible = "cirque,pinnacle";
+        reg = <0x2a>;
+        status = "okay";
+        sensitivity = "2x";
+        sleep;
+    };
+};
+
+&glidepoint_split {
+    device = <&glidepoint>;
+};
