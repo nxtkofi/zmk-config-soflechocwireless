@@ -1,4 +1,4 @@
-#include "sofle.dtsi"
+#include "cirque_split.dtsi"
 
 &glidepoint_listener {
     status = "okay";
