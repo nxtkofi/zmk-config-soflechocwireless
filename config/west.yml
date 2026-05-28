@@ -4,13 +4,18 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     - name: zmk-nice-oled
       remote: mctechnology17
+      revision: main
+    - name: cirque-input-module
+      remote: petejohanson
       revision: main
   self:
     path: config
