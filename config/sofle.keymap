@@ -67,7 +67,7 @@
 &trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp PG_UP             &trans    &kp UP   &trans    &kp N0  &trans
 &trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 &kp PG_DN             &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
 &trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans  &rgb_ug RGB_TOG       &rgb_ug RGB_EFF    &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_BRI &rgb_ug RGB_BRD
-                        &trans       &trans       &trans       &trans  &trans   &trans  &trans                &trans    &trans   &trans
+                        &trans       &trans       &trans       &trans  &trans   &trans  &mo 3                 &trans    &trans   &trans
 
             >;
 

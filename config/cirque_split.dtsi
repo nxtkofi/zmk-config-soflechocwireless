@@ -1,4 +1,5 @@
 #include <dt-bindings/zmk/input_transform.h>
+#include <input/processors.dtsi>
 
 / {
     split_inputs {
@@ -15,5 +16,11 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&glidepoint_split>;
+        input-processors = <&zip_x_scaler 3 2>;
+
+        scroll_mode {
+            layers = <3>;
+            input-processors = <&zip_xy_to_scroll_mapper &zip_scroll_scaler 1 4>;
+        };
     };
 };
